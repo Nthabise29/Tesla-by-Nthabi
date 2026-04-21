@@ -193,6 +193,10 @@ height: 80vh;
 border-radius: 12px;}
 
 
+#map img{border-radius: 12px;
+width: 95vw;
+margin-left: 40px;}
+
 
 
 #Chargers{display: flex;
@@ -253,3 +257,10 @@ border-radius: 12px;}
 
 
 .closing{text-align: center;}
+
+.footermenu{display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 7px;
+}
