@@ -163,14 +163,22 @@ justify-content:space-between ;}
 
 .extras{display: flex;
     flex-direction: row;
-justify-content: space-between;
-align-items: center;
+justify-content: flex-start;
+align-items: flex-end;
 gap: 30px;
+padding: 10px;
 width: 4000px;
 }
 
-.footertext{text-align: left;
-}
+.footertext{display: flex;
+    flex-direction:column;
+align-items: flex-start;
+justify-content: flex-end;
+margin-top: 500px;
+margin-left: 50px;
+margin-bottom: 40px;}
+
+
 
 #solar{background-image: url(./assets/Solar-Panels.avif);
 background-repeat: no-repeat;
