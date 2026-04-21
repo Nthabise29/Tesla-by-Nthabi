@@ -1,0 +1,207 @@
+
+body{width: 100%;
+overflow-y: scroll;}
+
+
+#navbar{display: flex;
+justify-content: space-between;
+flex-direction: row;
+align-items: center;}
+
+.nav-item{padding: 5px 10px;
+cursor: pointer;}
+.nav-item:hover{background-color:#f2f2f2;border-bottom-left-radius: 9999px;
+border-bottom-right-radius:9999px;
+border-top-left-radius:9999px;
+border-top-right-radius:9999px;
+}
+
+
+#logo{width: 100px;
+height: 75px;}
+
+
+#hero{background-image:url(./assets/Model-Y11.avif) ;width: 100vw;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;}
+
+.button-container{display: flex;
+flex-direction: row;
+gap: 5px;}
+
+.actions{width: 40px;
+height: 30px;}
+
+
+
+
+
+
+
+.models{display: flex;
+    flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap: 30px;
+width: 6000px;
+}
+
+#model1{background-image: url(./assets/Card-Model-3.avif);
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height: 80vh;
+background-size: cover;
+border-radius: 12px;
+}
+
+#model2{background-image: url(./assets/Card-Model-Y.avif);
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height: 80vh;
+border-radius: 12px;}
+
+#model3{background-image: url(./assets/Card-Cybertruck.avif);
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height: 80vh;
+border-radius: 12px;}
+
+#model4{background-image: url(./assets/Card-Model-S.avif);
+background-repeat: no-repeat;
+background-position: center;
+width: 80%;
+height: 80vh;
+border-radius: 12px;}
+
+#model5{background-image: url(./assets/Card-Model-X.avif);
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height: 80vh;
+border-radius: 12px;}
+
+
+
+
+
+.Offers{display: flex;
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 50%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.text{text-align:left ;
+padding-left: 30px;}
+
+
+
+.img1{width: 220px;
+height: 229.33px;
+float: right;}
+
+.img2{width: 220px;
+height: 229.33px;
+float: right;}
+
+
+
+
+#cards{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;}
+
+
+
+
+.info{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+align-items: center;
+gap: 30px;}
+
+
+#demo{background-image: url(./assets/Safety-Report.avif);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+height:80vh;
+border-radius: 12px;
+}
+
+#features{background-image: url(./assets/Features.avif);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 925px;
+height: 580px;
+border-radius: 12px;}
+
+
+
+
+#Chargers{display: flex;
+flex-direction: row;
+justify-content:space-between ;}
+
+
+
+.extras{display: flex;
+    flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap: 30px;
+width: 4000px;
+}
+
+.footertext{text-align: left;
+}
+
+#solar{background-image: url(./assets/Solar-Panels.avif);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 80vh;
+border-radius: 12px;}
+
+#wall{background-image: url(./assets/Powerwall.avif);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 80vh;
+border-radius: 12px;}
+
+#Megapack{background-image: url(./assets/Megapack.avif);
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height:80vh;
+border-radius: 12px;}
+
+#roof{background-image: url(./assets/Solar-Roof.avif);
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height: 80vh;
+border-radius: 12px;}
+
+
+
+.closing{text-align: center;}
