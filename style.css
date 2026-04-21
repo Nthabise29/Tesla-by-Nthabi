@@ -51,6 +51,9 @@ justify-content: space-between;
 align-items: center;
 gap: 30px;
 width: 6000px;
+margin-left: 40px;
+margin-top: 45px;
+margin-bottom: 70px;
 }
 
 #model1{background-image: url(./assets/Card-Model-3.avif);
@@ -65,6 +68,7 @@ border-radius: 12px;
 #model2{background-image: url(./assets/Card-Model-Y.avif);
 background-repeat: no-repeat;
 background-position: center;
+background-size: cover;
 width: 100%;
 height: 80vh;
 border-radius: 12px;}
@@ -72,6 +76,7 @@ border-radius: 12px;}
 #model3{background-image: url(./assets/Card-Cybertruck.avif);
 background-repeat: no-repeat;
 background-position: center;
+background-size: cover;
 width: 100%;
 height: 80vh;
 border-radius: 12px;}
@@ -79,16 +84,31 @@ border-radius: 12px;}
 #model4{background-image: url(./assets/Card-Model-S.avif);
 background-repeat: no-repeat;
 background-position: center;
-width: 80%;
+background-size: cover;
+width: 100%;
 height: 80vh;
 border-radius: 12px;}
 
 #model5{background-image: url(./assets/Card-Model-X.avif);
 background-repeat: no-repeat;
 background-position: center;
+background-size: cover;
 width: 100%;
 height: 80vh;
 border-radius: 12px;}
+
+.modelinfo{display: flex;
+    flex-direction:column;
+align-items: flex-start;
+justify-content: flex-end;
+margin-top: 450px;
+margin-left: 50px;
+margin-bottom: 40px;}
+
+
+
+
+
 
 
 
